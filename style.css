@@ -22,7 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-     
+
  }
 
  .logo{
@@ -40,6 +40,7 @@
     margin: 5px;
      color: rgb(42, 106, 161);
      margin-left: 10px;
+     
  }
  .navbar ul li a{
     text-decoration: blue;
@@ -97,7 +98,7 @@
     height: 35px;
     width: 120px;
     margin-left: 10px;
-    margin-top: 60px;
+    margin-top: 95px;
     background-color: rgb(218, 213, 214);
     border-radius: 20px;
     border-color: blue;
@@ -128,4 +129,133 @@ opacity: 0.8;
 .description2 button:active{
 opacity: 0.8;
 }
+/*.... short courses ....*/
 
+.Home{
+    text-align: center;
+    font-size: larger;
+    margin-top: 40px;
+    
+
+}
+.logo-2{
+    width: 1000px;
+    background-position: center;
+    height: 400px;
+
+}
+.overlay{
+    font-size: 50px;
+
+}
+.SOT{
+    color: blue;
+}
+.Expert{
+    margin-right: 700px;
+    color: goldenrod;
+   
+}
+.Certification {
+    margin-left: 600px;
+    display: inline-block;
+    padding-bottom: 200px;
+    
+
+}
+.Certification{
+color: goldenrod;
+
+}
+.Section-des{
+    background-color: rgb(58, 58, 83);
+    height: 550px;
+}
+.CERTIFICATE{
+    padding-left: 40px;
+    margin-left: 500px;
+}
+.Register{
+    height: 60px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: rgb(58, 66, 77);
+    color: goldenrod;
+}
+.Register:hover{
+    color: rgb(187, 35, 35);
+    background-color: rgb(221, 218, 207);
+    font-weight: 300;
+}
+.flex-container{
+    
+    display: flex; 
+}
+.flex-container div{
+    border: 1px #a73232 solid;
+    padding: 10px;
+    border: none;
+}
+.box-1{
+margin: auto;
+}
+.box-1:hover{
+    color: rgb(143, 116, 192);
+}
+.box-2{
+margin: auto;
+}
+.box-2 :hover{
+    color: greenyellow;
+}
+.box-3{
+padding: 0;
+}
+.box-3:hover{
+    color: blue;
+}
+.box-4{
+padding: 0;
+}
+.box-4:hover{
+    color: blueviolet;
+}
+.section-footer{
+    background-color: rgb(58, 58, 83);
+    height: 600px;
+}
+.flex-container-1{
+       display: flex;
+    color: white;
+ }
+ .flex-container-1 div{
+    border: 1px #a73232 solid;
+    padding: 10px;
+    border: none; 
+ }
+
+.box-11{
+padding: 0;
+}
+.box-22{
+    margin-left: 60px;
+}
+.box-33{
+    margin-left: 70px;
+}
+.box-44{
+    margin-left: 90px;
+}
+/*.... about us ....*/
+
+.section-header{
+height: 200px;
+width: 87%;
+background-image: url(./about\ \(1\).jpg);
+margin-left: 75px;
+
+}
+.section.content{
+    height: 200px;
+    width: 87%;
+}
