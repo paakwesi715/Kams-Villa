@@ -17,10 +17,24 @@
              <li><a href="#"> Research Groups</a></li>
              
          </ul>
+ </div><br>
+ <div style="margin-left: 70px; color: blue;" class="date">
+    <script>
+        function displayLiveDate() {
+          const currentDate = new Date();
+          const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+          const formattedDate = currentDate.toLocaleDateString(undefined, options);
+          
+          document.getElementById("date").textContent = "Today's date is: " + formattedDate;
+        }
+      </script>
+    </head>
+    <body onload="displayLiveDate()">
+      <p id="date"></p>
  </div>
  <section class="section-header">
     <div class="title">
-        <h1 style="text-align: center;margin-top: 25px; color: white;">
+        <h1 style="text-align: center;margin-top: 25px; color: white; font-family: cursive;">
             ABOUT US </h1>
     </div>
 

@@ -17,11 +17,32 @@
              <li><a href="#"> Research Groups</a></li>
              
          </ul>
+ </div><br>
+ <div style="margin-left: 70px; color: blue;" class="date">
+    <script>
+        function displayLiveDate() {
+          const currentDate = new Date();
+          const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+          const formattedDate = currentDate.toLocaleDateString(undefined, options);
+          
+          document.getElementById("date").textContent = "Today's date is: " + formattedDate;
+        }
+      </script>
+    </head>
+    <body onload="displayLiveDate()">
+      <p id="date"></p>
  </div>
+ <section class="section-header">
+    <div class="title">
+        <h1 style="text-align: center;margin-top: 25px; color: white; font-family: cursive;">
+            COURSES </h1>
+         </div>
+
+ </section>
+
  <section class="Home">
-    <img class="logo-2" src="image file/R.jpg" alt="logo-2" >
-    <h1 style="font-size: larger;">COURSES</h1>    <br><br>
-    <h2 style="cursor:pointer;color: blue;">Short Courses we offer</h2>
+        <br>
+    <h2 style="cursor:pointer;color: rgb(63, 63, 88);">Short Courses we offer</h2>
     <p>Our eight week intensive certificate course is open to senior high school graduates, tertiary students,<br> school graduates, workers and the general public.</p>
     <br><br><strong style="color: brown;"> Evening and Weekend Session Only</strong>
     <br><br>
@@ -43,27 +64,27 @@
     <div class="Register">
         <button class="Register">Register here</button>
     </div>
-    </div></section><br><br>
+    </div></section><br><br><br> <br><br>
     
     <div class="flex-container">
         <div class="box-1">
-            <img style="width: 300px; border-radius: 15px; cursor: pointer;" src="image file/Ccisco.jpg" alt="cisco.jpg">
+            <img style="width: 300px; border-radius: 15px; cursor: pointer; height: 300px;" src="image file/Ccisco.jpg" alt="cisco.jpg">
             <h4>Computer Network Fundamentals[CCNA]</h4><br>
         <p>We provide quality trainung for <br>student to become a Cisco <br> Certified Network Associate(CCNA)</p>
         </div>
         <div class="box-2">
-            <img style="width: 300px; height: 200px;border-radius: 15px; cursor: pointer;" src="image file/web pro.jpg" alt="Web.jpg"><br>
+            <img style="width: 300px; height: 200px;border-radius: 15px; cursor: pointer; height: 300px;" src="image file/web pro.jpg" alt="Web.jpg"><br>
             <h4>Introduction to Web Programming</h4><br>
             <p>Understand the fundamentals of <br> web technologies and create <br> web-based application with <br> latest technology</p>
         </div>
         <div class="box-3">
-            <img style="width: 300px;border-radius: 15px; cursor: pointer;" src="image file/OIP.jpg" alt="Hacking.jpg"><br>
+            <img style="width: 300px;border-radius: 15px; cursor: pointer; height: 300px;" src="image file/OIP.jpg" alt="Hacking.jpg"><br>
             <h4>Information Security and Ethical Hacking</h4><br>
             <p>Learn various techniques <br>used to secure computer <br> system from attack through <br>hacking</p>
 
             </div>
         <div class="box-4">
-            <img style="width: 300px;border-radius: 15px; cursor: pointer;" src="image file/Mobile App Dev.jpg" alt="MBA"><br>
+            <img style="width: 300px;border-radius: 15px; cursor: pointer; height: 300px;" src="image file/Mobile App Dev.jpg" alt="MBA"><br>
             <h4>Mobile Application Development</h4><br>
             <p>We provide world class   <br>technology for Mobile <br>Application using the mobile-first worklight by IBM</p>
 

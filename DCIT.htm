@@ -19,13 +19,28 @@
                 <li><a href="#"> Research Groups</a></li>
                 
             </ul>
-    </div>
+    </div><br>
+    <div style="margin-left: 70px;color: blue;" class="date">
+        <script>
+            function displayLiveDate() {
+              const currentDate = new Date();
+              const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+              const formattedDate = currentDate.toLocaleDateString(undefined, options);
+              
+              document.getElementById("date").textContent = "Today's date is: " + formattedDate;
+            }
+          </script>
+        </head>
+        <body onload="displayLiveDate()">
+          <p id="date"></p>
+     </div>
     <div class="content">
         <h1>YOUR GATEWAY TO WORLD  </h1>
         <h1>CLASS COMPUTER SCIENCE </h1>
-        <h1>EDUCATION</h1>
+        <h1>EDUCATION</h1><br><br>
+        <button style="width: 75px; height: 35px; border-radius: 15px;color: blue;">Explore</button>
     </div>
-   <div class="description">
+   <div class="description-1">
     <button type="button">
         Short Courses Available
     </button>
@@ -40,7 +55,7 @@
     <div class="description-4">
         <button>Lecturers zone</button>
     </div>
-    <div class="description-3">
+    <div class="description-5">
         <button>Chat Room</button>
     </div>
 

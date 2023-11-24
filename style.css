@@ -93,7 +93,7 @@
    }
 
 }
-.description button{
+.description-1 button{
     color: rgb(73, 73, 83);
     height: 35px;
     width: 120px;
@@ -104,11 +104,11 @@
     border-color: blue;
     font-weight: 500;
 }
-.description button:hover{
+.description-1  button:hover{
     background-color: blue;
     color: greenyellow;
 }
-.description button:active{
+.description-1 button:active{
 opacity: 0.8;
 }
 .description-2 button{
@@ -122,13 +122,14 @@ opacity: 0.8;
     border-color: blue;
     font-weight: 500;
 }
-.description2 button:hover{
+.description-2 button:hover{
     background-color: blue;
     color: greenyellow;
 }
 .description2 button:active{
 opacity: 0.8;
 }
+
 /*.... short courses ....*/
 
 .Home{
